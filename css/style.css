@@ -1,0 +1,61 @@
+body,h1,h2,h3,h4,h5,a,p,section{
+	margin: 0;
+	font-weight: normal;
+	font-size: 100%;
+}
+
+*{
+	box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.font_ebold{
+
+}
+
+.font_reg{
+
+}
+
+.font_medium{
+
+}
+
+.header {
+
+}
+.container {
+    margin: auto;
+    width: 1170px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+   text-decoration: none;
+   color: #333;
+   font-weight: 400;
+   font-size: 16px;
+   
+}
+
+.menu:hover{
+    font-weight: 500;
+}
+
+.p_menu {
+   margin-right: 66px;
+}
+
+
+.logo {
+
+}
+.store {
+    
+}
