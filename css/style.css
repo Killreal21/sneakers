@@ -25,17 +25,21 @@ html{
 
 }
 
-.header {
-
+header {
+    position: sticky;
+    top: 0;
 }
+
+
 .container {
-    margin: auto;
+    margin: 0 auto;
     width: 1170px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .menu {
    text-decoration: none;
    color: #333;
@@ -58,4 +62,17 @@ html{
 }
 .store {
     
+}
+
+.offer{
+    height: 80vh;
+    background-color: beige;
+}
+
+.offer_container{
+    width: 1600px;
+    height: 80vh;
+    background-color:blue ;
+    margin: 0 auto;
+    display: flex;
 }
