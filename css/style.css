@@ -66,13 +66,61 @@ header {
 
 .offer{
     height: 80vh;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 .offer_container{
     width: 1600px;
     height: 80vh;
-    background-color:blue ;
+    /* background-color:blue ; */
     margin: 0 auto;
     display: flex;
+}
+
+.offer_text{
+    margin-top: 133px;
+    height: 430px;
+    /* background-color: rgb(155, 63, 63); */
+    margin-left: 210px;
+}
+
+.offer_h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+}
+.offer_h1 {
+    margin-top:0px;
+    font-size: 80px;
+    font-weight: 800;
+    color: #333;
+    line-height: 85%;
+}
+.offer_p {
+    margin-top: 30px;
+    font-size: 26px;
+    font-weight: normal;
+    color: #333;
+    line-height: 95%;
+}
+
+.button_offer{
+    display: flex;
+}
+
+.button_zak{
+    margin-top: 30px;
+    width: 180px;
+    height: 42px;
+    background-color: #000;
+}
+
+.button_podr {
+    margin: 30px 0px 0px 40px;
+    width: 180px;
+    height: 42px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
