@@ -67,6 +67,7 @@ header {
 .offer{
     height: 80vh;
     /* background-color: beige; */
+    display: flex;
 }
 
 .offer_container{
@@ -123,4 +124,11 @@ header {
     border-style: solid;
     border-width: 1px;
     border-color: black;
+}
+
+.offer_img{
+    width: 1059px;
+    height: 516px;
+    align-items: center;
+    margin-top: 120px;
 }
